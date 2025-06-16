@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean class="in.sp.beans.student" id="stdId">
+<!-- it will create object of student class ,object name is stdId -->
+<property name="name" value="suraj"/>
+<property name="rollno" value="101"/>
+<property name="email" value="suraj@gmail.com"/>
+
+<!-- default value null,but now value is assigned -->
+
+</bean>
+    <!-- bean definitions here -->
+    <bean class="in.sp.beans.student" id="stdId2">
+<!-- it will create object of student class ,object name is stdId -->
+<property name="name" value="ratan"/>
+<property name="rollno" value="102"/>
+<property name="email" value="ratan@gmail.com"/>
+
+<!-- default value null,but now value is assigned -->
+
+</bean>
+
+</beans>
